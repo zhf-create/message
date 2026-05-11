@@ -1,0 +1,1 @@
+import{$ as e}from"./index-gBudAe4D.js";const r=e({}),o=r.config.globalProperties.$bus={listeners:{},on(s,i){this.listeners[s]||(this.listeners[s]=[]),this.listeners[s].push(i)},emit(s,...i){this.listeners[s]&&this.listeners[s].forEach(t=>t(...i))},off(s,i){this.listeners[s]&&(this.listeners[s]=this.listeners[s].filter(t=>t!==i))}};export{o as e};
